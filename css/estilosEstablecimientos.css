@@ -1,0 +1,106 @@
+.Fotosestablecimientos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 50px;
+    border: 0, 5px solid black;
+    position: relative;
+    left: 200px;
+}
+
+.texto {
+    position: relative;
+    bottom: 260px;
+    left: 300px;
+    margin-left: 340px;
+    font-size: 20px;
+    color: #660BFB;
+}
+
+#hola {
+    position: relative;
+    top: 50px;
+}
+
+#gran {
+    margin-left: 500px;
+    margin-bottom: 15px;
+    font-size: 55px;
+    margin-top: 50px;
+    background-color: #fdcbe2;
+    width: 370px;
+    border-radius: 10px;
+    font-family: arial;
+}
+
+#esta {
+    margin-left: 740px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 40px;
+    background-color: #fdcbe2;
+    height: auto;
+    width: 310px;
+    border-radius: 10px;
+}
+
+h3 {
+    margin-top: 40px;
+    padding-bottom: 50px;
+    font-size: 34px;
+    color: rgb(10, 9, 10);
+}
+
+.Fotosestablecimientos:hover {
+    cursor: pointer;
+    transform: rotate(15deg);
+}
+.filtracion2{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    left: 1300px;
+    top: 40px;
+} select{
+    padding: 3px 5px;
+} #filtrar{
+    border-top: 1px solid #8628ab;
+    background: #4b00ed;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    padding: 3px 5px;
+    border-radius: 12px;
+}#filtrar:hover {
+    cursor: pointer;
+}
+
+.botoncito {
+    border-top: 1px solid #8628ab;
+    background: #4b00ed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ab4acc), to(#4b00ed));
+    background: -webkit-linear-gradient(top, #ab4acc, #4b00ed);
+    background: -moz-linear-gradient(top, #ab4acc, #4b00ed);
+    background: -ms-linear-gradient(top, #ab4acc, #4b00ed);
+    background: -o-linear-gradient(top, #ab4acc, #4b00ed);
+    padding: 13.5px 27px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+    text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-top: 40px;
+}
+
+button:hover {
+    cursor: pointer;
+}

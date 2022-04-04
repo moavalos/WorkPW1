@@ -1,0 +1,162 @@
+#martin {
+  margin-left: 500px;
+  margin-bottom: 15px;
+  font-size: 55px;
+  margin-top: 50px;
+  background-color: #fdcbe2;
+  width: 270px;
+  border-radius: 10px;
+}
+
+#Datos {
+  position: relative;
+  bottom: 255px;
+  margin-left: 500px;
+  font-size: 25px;
+  color: #260658;
+}
+
+#DC {
+  margin-left: 500px;
+  margin-bottom: 15px;
+  font-size: 55px;
+  margin-top: 50px;
+  background-color: #fdcbe2;
+  width: 120px;
+  border-radius: 10px;
+  font-family: arial;
+}
+#mao{
+  margin-left: 500px;
+margin-bottom: 15px;
+font-size:55px;
+margin-top: 50px;
+background-color: #fdcbe2;
+width:320px;
+border-radius: 10px;
+}
+
+.idioms {
+  font-size: 40px;
+  margin-left: 77px;
+  padding-bottom: 20px;
+  background-color: #ffd37ae7;
+  height: 32px;
+  border-radius: 12px;
+}
+
+.cursos {
+  font-size: 25px;
+  color: #000C99;
+  background-color: white;
+  height: 175px;
+  width: 450px;
+  border-radius: 30px;
+  text-decoration: none;
+  list-style: none;
+  padding-left: 10px;
+  margin-left: 0px;
+}
+
+.cursos:hover {
+  cursor: pointer;
+  transform: scale(1.05, 1.05);
+}
+
+button {
+  border-top: 1px solid violet;
+  background: #4b00ed;
+  /*background: -webkit-gradient(linear, left top, left bottom, from(#ab4acc), to(#4b00ed));  background: -webkit-linear-gradient(top, #ab4acc, #4b00ed);*/
+  background: -moz-linear-gradient(top, #ab4acc, #4b00ed);
+  background: -ms-linear-gradient(top, #ab4acc, #4b00ed);
+  background: -o-linear-gradient(top, #ab4acc, #4b00ed);
+  padding: 13.5px 20px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+  text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  vertical-align: middle;
+  margin-top: 60px;
+  margin-right: 50px;
+  margin-left: 500px;
+}
+
+button:hover {
+  border-bottom: violet;
+  cursor: pointer;
+}
+
+.coursesflex {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lista {
+  margin-top: 180px;
+}
+
+#martinimg {
+  border-radius: 20px;
+}
+
+#martinimg:hover {
+  cursor: pointer;
+  transform: rotate(15deg);
+}
+
+#nextcu {
+  font-size: 55px;
+  margin-left: 500px;
+  margin-bottom: 100px;
+}
+
+
+@keyframes anim1 {
+  from {
+    transform: scaleX(1) rotate(-15deg);
+    -o-transform: scaleX(1) rotate(-15deg);
+  }
+  to {
+    transform: scaleX(-1) rotate(15deg);
+    -o-transform: scaleX(-1) rotate(15deg);
+  }
+}
+
+@-webkit-keyframes anim1 {
+  from {
+    -webkit-transform: scaleX(1) rotate(-15deg);
+  }
+  to {
+    -webkit-transform: scaleX(-1) rotate(15deg);
+  }
+}
+
+.images {
+  border-radius: 30px;
+  margin-left: 5px;
+  width: 400px;
+  height: 200px;
+  animation: anim1 2s ease-in-out alternate infinite;
+  -webkit-animation: anim1 2s ease-in-out alternate infinite;
+}
+#gran{
+  margin-left: 500px;
+margin-bottom: 15px;
+font-size:55px;
+margin-top: 50px;
+background-color: #fdcbe2;
+width:370px;
+border-radius: 10px;
+font-family:arial;
+
+}

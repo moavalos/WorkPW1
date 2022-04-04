@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-family: 'Rubik', sans-serif;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.TuIdioma {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: #ffdfee;
+    width: auto;
+    height: auto;
+}
+
+.TuIdioma:hover {
+    -webkit-box-shadow: 7px 7px 16px -2px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 7px 7px 16px -2px rgba(0, 0, 0, 0.62);
+    box-shadow: 7px 7px 16px -2px rgba(0, 0, 0, 0.62);
+}
+
+.info h3 {
+    position: relative;
+    display: inline-block;
+    background-color: #fdcbe2;
+    border-radius: 8px;
+    padding: 5px;
+    left: 10px;
+    top: 5px
+}
+
+.info p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #414747;
+}
+
+.info ul {
+    margin: 10px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+hr {
+    background-color: rgb(107, 107, 107);
+}
+
+.establecimientos {
+    margin-top: 50px;
+
+}
+
+.establecimientos h3 {
+    position: relative;
+    display: inline-block;
+    background-color: #fdcbe2;
+    border-radius: 8px;
+    padding: 5px;
+    left: 10px;
+    top: 5px;
+    bottom: 0px;
+}
+
+.establecimientos ol {
+    position: relative;
+    /*display: flex;*/
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.establecimientos li {
+    position: relative;
+    top: 100%;
+    right: 50%;
+    display: inline;
+    height: 20px;
+    width: 100px;
+    background-color: #fdcbe2;
+    font-weight: bold;
+    text-align: center;
+}
+
+.establecimientos div {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5px 1px;
+}
+
+.imagenE {
+    padding: 4px 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50%;
+}
+
+h3 {
+    position: relative;
+    display: inline-block;
+    background-color: #fdcbe2;
+    border-radius: 8px;
+    padding: 6px;
+    left: 10px;
+    top: 0px
+}
+
+.pasos div {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    
+}
+.pasos ol {
+    margin-top: 60px;
+    margin-bottom: 110px;
+    position: relative;
+    /* display: flex; */
+    justify-content: center;
+}
+
+.pasos li {
+    position: relative;
+    /* top: 100%; */
+    /* right: 50%; */
+    display: inline-block;
+    height: 50px;
+    width: 110px;
+    background-color: #ffd37ae7;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.contenedor-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedor-cont article {
+    width: calc(50%-20px);
+}
+
+input, select, textarea {
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+label {
+    margin-top: 5px;
+    display: block;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #757575;
+}
+
+.boton {
+    background-color: #414747;
+    color: aliceblue;
+    margin-top: 30px;
+    border: none;
+ 
+}
+
+
+
+.boton:hover {
+    cursor: pointer;
+    background-color: #ffd37ae7;
+    color: #414747;
+    font-weight: 800;
+}
+
+.cime:hover {
+    cursor: pointer;
+    transform: scale(1.27, 1.27);
+}
+
+#TyC {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 32px;
+    left: 339px;
+}
+
+/* paleta
+#faf9f9 blanco
+#BEE3DB celestito
+#faf9f9 blancos
+#BEE3DB celestito
+#fc4a381 marroncito
+#89B0AE celeste oscuro
+#555B6E gris*/
+
+
+
+
+
+form label {
+    display: block;
+    margin-top: 10px ;
+  }
+form p {
+    margin: 0;
+  }
+/*
+ .formulario2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px; 
+  }*/
+
+
+.form-cont{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.menu ul {
+    background-color:#89B0AE ;
+}
+.menu ul li{
+    list-style: none;
+    text-align: center;
+    padding: 5px 30px;
+
+}
+.menu ul li a{
+    /*color: #fff;
+    display: block;
+    padding:10px;
+    text-decoration: none;*/
+    text-decoration: none;
+    background-color: #89B0AE;
+    color: black;
+    padding:5px 10px;
+    font-weight: 700;
+    display: inline-block;
+    transform: scale(1);
+    transition: transform 0.4s;
+}
+.menu ul li a:hover{
+    /*background-color: #fff;
+    color: #06a8de;*/
+    background-color: #757575;
+    color: black;
+    transform: scale(1.3) rotate(0deg);
+    cursor:pointer;
+}
+a.desplegable{
+    display: block;
+    width: 55px;
+    height: 55px;
+    background-image: url(../img/hamburger.gif);
+    background-color: #89B0AE;
+    position:fixed;
+    top:0;
+    right: 0;
+    cursor: pointer;
+}
+a.desplegable:hover{
+    background-color:#000;
+}
+.menu.menuoc{
+    display:none;
+}
+
+
+
+/* Estilos generales */
+
+*{
+    margin: 0;
+    padding: 0;
+} .icon{
+    font-size: 100px;
+    margin-left: 200px;
+    position: absolute;
+    display: none;
+    
+}
+body{
+    background-color: #e3faf5;
+    font-family: 'Rubik', sans-serif;
+} header{
+    background-color: #757575;
+    color: #ffffffe7;
+    font-size: 20px;
+    text-align: center;
+    /*--border: 2px solid;*/
+} h1{
+    font-size: 50px;
+}
+
+
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+} footer{
+    height: 250px;
+    width:100%;
+    background-color: #757575;
+    text-align: center;
+    margin-top: 50px;
+    
+} .integrantes{
+    display:flex;
+    font-size:100%;
+    font-weight: bold;
+    flex-direction: column;
+    text-align: left;
+    padding-left:40px;
+    padding-top:40px;
+} .redes {
+    text-align: right;
+    position: relative;
+    right: 60px;
+} .redes i{
+    font-size: 30px;
+    color: #fdcbe2;
+    margin-left: 10px;
+
+} 
+
+
+
+/* ESTILOS PARA PANTALLA */
+
+@media screen and (min-width:47em){
+    .menu ul{
+        display: flex;
+        justify-content: center;
+    }
+    .menu.menu.menuoc{
+        display:block;
+    }
+    a.desplegable{
+        display: none;
+    }
+    .pasos ol {
+         display: flex; }
+        
+    .establecimientos ol {
+        display: flex;
+        }
+        
+    .pasos li {
+        top: 100%; 
+        right: 50%; 
+        margin-left: 20px;
+    }
+    .formulario2 {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 20px; 
+    }
+    .icon{
+  
+        display: block;
+        
+    }
+    .integrantes{    height:100px;
+    }
+        
+}

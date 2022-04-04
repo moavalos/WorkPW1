@@ -1,0 +1,107 @@
+main {width: 80%;
+    margin: 0 auto;
+}
+.titulo {
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+    bottom: 40px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #fdcbe2;
+}
+
+.titulo:hover {
+    -webkit-box-shadow: 7px 7px 16px -2px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 7px 7px 16px -2px rgba(0, 0, 0, 0.62);
+    box-shadow: 7px 7px 16px -2px rgba(0, 0, 0, 0.62);
+}
+
+ul li, ol li {list-style: none; padding-top: 5px;}
+
+main h1 {
+    margin-top: 1em;
+    text-align: center;
+
+}
+main h2 {padding: 1.6em 0 0 1em;
+font-size: 1.6em;
+}
+
+.contenedorCalendario {  
+    display:flex;
+	flex-wrap: wrap;
+	justify-content:space-between;      
+}
+
+.contenedorCalendario article {
+    width: calc(33% - 1em);
+    display:flex;
+	flex-wrap: wrap;
+    margin-top: 1.5em;
+    background-color: rgb(237 237 237);
+    border-radius: 1em;
+    border: 1px solid #89b0ae;
+    
+}
+.contenedorCalendario article .info {
+    box-sizing: border-box;
+    width: calc(65% - 0.5em);
+    padding: 1em;
+    font-size: 0.9em;
+}
+
+
+.contenedorCalendario article .foto {
+    box-sizing: border-box;
+    width: calc(35% - 0.5em);
+    padding: 1em;
+    
+
+
+}    
+
+.foto img {
+    max-width: 150px;
+    max-width: 100%;
+
+}
+
+
+.info  {
+    padding-top: 20px;
+}
+
+.boton {
+margin-top: 5px;
+text-align: right;
+margin-bottom: 10px;
+}
+
+.boton a {
+text-decoration: none;
+padding: 0.5em;
+border-radius: 0.5em;
+background-color: #414747;
+color: #fff;
+
+
+}
+
+.boton a:hover {
+    background-color: #ffd37ae7;
+    color: #414747;
+}
+
+
+.filtracion{
+    margin-top: 20px;
+    padding:0.3em;
+    text-align: right;
+}
+.filtracion select, .filtracion button{
+    padding: 0.3em;
+}
+
+/*375598*/

@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/534893fe33.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://w7.pngwing.com/pngs/573/202/png-transparent-earth-globe-universal-job-ag-universal-job-ag-planet-earth-globe-logo-world.png">
+    <link rel="stylesheet" href="css/estilosGenerales.css">
+    <link rel="stylesheet" href="css/estilosCalendario.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/calendario.js"></script>
+
+    <title>Calendario</title>
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <i class="fas fa-globe-africa"></i>
+        </div>
+        <h1>TU IDIOMA</h1>
+        <h2>INSTITUTO DE IDIOMAS</h2>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="inscripcion.html">Inscripcion</a>
+                </li>
+                <li>
+                    <a href="establecimiento.html">Establecimiento</a>
+                </li> 
+                <li>
+                    <a href="calendario.html">Calendario</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h1 class="titulo">Calendario de cursos</h1>
+
+        <div class="filtracion">
+            <label>Filtrar por: </label>
+            <select name="establecimiento" id="establecimiento">
+                <option value="todosestablecimientos">Todos los Establecimientos</option>
+                <option value="SanMartin">San Martín</option>  
+                <option value="MaoZedong">Mao Zedong</option>
+                <option value="GranLondres">Gran Londres</option>
+                <option value="DC">D.C</option>
+            </select>
+            <select name="idioma" id="idioma">
+                <option value="todosidiomas">Todos los idiomas</option>
+                <option value="Aleman">Alemán</option>  
+                <option value="Chino">Chino</option>
+                <option value="Frances">Francés</option>
+                <option value="Ingles">Inglés</option>
+                <option value="Japones">Japonés</option>
+                <option value="Portugues">Portugués</option>
+            </select>
+            <button id="filtrar">Filtrar</button>
+        </div>
+
+        <h2>Abril</h2>
+        <section id="cursos">
+
+            <div class="contenedorCalendario">
+                <article class="GranLondres Aleman">
+                    <div class="foto">
+                        <img src="img/al-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Alemán - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Lunes 8am a 10am</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 07/04</li>
+                                <li><b>Sede:</b> Gran Londres</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+                <article class="GranLondres Portugues">
+                    <div class="foto">
+                        <img src="img/p-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Portugués - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Virtual)Viernes 8am a 10am</li>
+                                <li>(Presencial)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 07/04</li>
+                                <li><b>Sede:</b> Gran Londres</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+                <article class="San Martin Ingles">
+                    <div class="foto">
+                        <img src="img/u-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Inglés - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Lunes 8am a 10am</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 07/04</li>
+                                <li><b>Sede:</b> San Martin</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+
+                <article class="San Martin Chino">
+                    <div class="foto">
+                        <img src="img/c-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Chino - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Virtual)Viernes 8am a 10am</li>
+                                <li>(Presencial)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 07/04</li>
+                                <li><b>Sede:</b> San Martin</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+                <article class="MaoZedong Japones">
+                    <div class="foto">
+                        <img src="img/j-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Japonés - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Lunes 8am a 10am</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 07/04</li>
+                                <li><b>Sede:</b> Mao Zedong</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+                <article class="MaoZedong Ingles">
+                    <div class="foto">
+                        <img src="img/u-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Inglés - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Virtual)Viernes 8am a 10am</li>
+                                <li>(Presencial)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 07/04</li>
+                                <li><b>Sede:</b> Mao Zedong</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+                <article class="DC Portugues">
+                    <div class="foto">
+                        <img src="img/p-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Portugués - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Lunes 8am a 10am</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 07/04</li>
+                                <li><b>Sede:</b> D.C</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+                <article class="DC Chino">
+                    <div class="foto">
+                        <img src="img/c-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Chino - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Virtual)Viernes 8am a 10am</li>
+                                <li>(Presencial)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 07/04</li>
+                                <li><b>Sede:</b> D.C</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+                <article class="DC Japones">
+                    <div class="foto">
+                        <img src="img/j-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Japonés - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Viernes 18pm a 20pm</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 07/04</li>
+                                <li><b>Sede:</b> D.C</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+                
+
+
+
+            </div>
+
+       <h2>Agosto</h2>
+
+            <div class="contenedorCalendario">
+                <article class="GranLondres Japones">
+                    <div class="foto">
+                        <img src="img/j-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Japonés - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Viernes 18pm 20pm</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 15/08</li>
+                                <li><b>Sede:</b> Gran Londres</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+                <article class="GranLondres Chino">
+                    <div class="foto">
+                        <img src="img/c-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Chino - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Lunes 8am a 10am</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 15/08</li>
+                                <li><b>Sede:</b> Gran Londres</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+                <article class="SanMartin Frances"> 
+                    <div class="foto">
+                        <img src="img/f-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Francés - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Viernes 18pm a 20pm</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 15/08</li>
+                                <li><b>Sede:</b> San Martin</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+
+                <article class="SanMartin Aleman">
+                    <div class="foto">
+                        <img src="img/al-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Alemán - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Lunes 8am a 10am</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 15/08</li>
+                                <li><b>Sede:</b> San Martin</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+                <article class="MaoZedong Chino">
+                    <div class="foto">
+                        <img src="img/c-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Chino - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Viernes 18pm a 20pm</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 15/08</li>
+                                <li><b>Sede:</b> Mao Zedong</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+                <article class="MaoZedong Aleman">
+                    <div class="foto">
+                        <img src="img/al-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Alemán - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Lunes 8am a 10am</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 15/08</li>
+                                <li><b>Sede:</b> Mao Zedong</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+                <article class="DC Ingles">
+                    <div class="foto">
+                        <img src="img/u-bandera.png" >
+
+                    </div>
+                    <div class="info">
+                        
+                            <h3>Inglés - Nivel 1</h3>
+                            <ul>
+                                <li><b>Modalidad:</b> Presencial / Virtual</li>
+                                <li><b>Dias y horarios:</b> </li>
+                                <li>(Presencial)Lunes 8am a 20am</li>
+                                <li>(Virtual)Lunes 18pm a 20pm</li>
+                                <li><b>Fecha de inicio:</b> 15/08</li>
+                                <li><b>Sede:</b> D.C</li>
+                                <li><b>Precio: $2000</b></li>
+                                <li class="boton"><a href="inscripcion.html" >Inscribirse</a></li>
+                            </ul>
+                    </div>
+                </article>
+
+
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <article class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="inscripcion.html">Inscripcion</a></li>
+                <li> <a href="establecimiento.html">Establecimiento</a> </li>
+                <li><a href="calendario.html">Calendario</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </article>
+        <article>
+            <ul class="integrantes">
+                <li>Willka Romero -DNI:34259387</li>
+                <br>
+                <li>Avalos Mora Melina -DNI:44318877</li>
+                <br>
+                <li>Quiroga Pablo -DNI:44115362</li>
+            </ul>
+        </article>
+        <article>
+            <div class="redes">
+                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.whatsapp.com/?lang=es" target="blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </article>
+    </footer>
+    
+</body>
+</html>
